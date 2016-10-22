@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1449960238630-7e720e630019");
+  background-size: 100% auto;
+}
+
+audio {
+  width: 400px;
+  margin: 45px 35%;
+}
+
+p {
+  text-align: center;
+  margin: -5px auto;
+  #search {
+    border-color: none;
+  }
+  button {
+    color: #E6E8E5;
+    font-weight: 100;
+    background-color: #545355;
+    border: 1px;
+    margin-left: -5px;
+    margin-top: -1px;
+  }
+}
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.song {
+  width: 180px;
+  float: left;
+  margin-top: 50px;
+  height: 300px;
+
+  .image {
+    width: 180px;
+  }
+  .title {
+    font-size: 15px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    color: grey;
+    width: 200px;
+  }
+  .artist {
+    font-size: 12px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    color: grey;
+    width: 200px;
+  }
+
+}
