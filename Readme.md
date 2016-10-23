@@ -1,16 +1,12 @@
+##Soundcloud Music App
 
-## Gulp Tasks
+###API data from Soundcloud was utilized to create our own music search app.
 
-All tasks are listed below, but ideally you will just need to run `gulp start` and be done with it.
+- `modules`: Separate JavaScript files were created into different modules that reflected their role in the search process.
 
-- `gulp start`: This is the primary task that will fire up the server and allow you to start building
-- `gulp server`: This will start a Browsersync server with live-reload
-- `gulp sass`: This will compile your SASS
-- `gulp browserify`: This will transpile your JS from ES6 to ES5
-- `gulp watch`: This will start a watcher for files
+  1. Obtaining API data using an AJAX request `$.ajax()`
+  2. Identifying information applicable to the search page from the AJAX response
+  3. Placing searched data onto a HTML template using template literals
 
-## NPM Scripts
-
-- `npm run test`: This will launch Mocha in your terminal and run any tests
-- `npm run deploy`: This will deploy your application to Surge.sh for you
-- `npm run lint`: This will run ESLint on your `/src/js` folder
+Following is a link to the music search page:
+[MUSIC WAVES](http://tiy-gracelee-music-app.surge.sh/)
