@@ -2,7 +2,7 @@
 
 ###API data from Soundcloud was utilized to create our own music search app.
 
-- `modules`: Separate JavaScript files were created into different modules that reflected their role in the search process.
+- `modules`: Separate JavaScript files were created to reflected the following roles.
 
   1. Obtaining API data using an AJAX request `$.ajax()`
   2. Identifying information applicable to the search page from the AJAX response
