@@ -17,15 +17,15 @@ function listSongs (song) {
 function playSong (event) {
   // console.log(event);
   var play = `
-    <audio controls="controls" autoplay>
+    <audio class="controls" controls="controls" autoplay>
       <source src="${event.currentTarget.dataset.songsource}?client_id=${SC_TOKEN}" type="audio/${event.currentTarget.dataset.formatsource}">
     </audio>`;
 
-  $(".controls").html(play);
+  $(".player").html(play);
 
   var nowPlay = `
   <p>Now Playing: <strong>
-      <span class="songArtist">${event.currentTarget.dataset.artistsource}</span> - 
+      <span class="songArtist">${event.currentTarget.dataset.artistsource}</span> -
       <span class="songTitle">${event.currentTarget.dataset.titlesource}</span>
   </strong></p>`;
 

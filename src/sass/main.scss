@@ -32,17 +32,18 @@ audio {
 }
 
 .nowPlaying {
-  margin: 2px 32%;
-  margin-bottom: 30px;
-  font-size: 13px;
-  padding-left: 12px;
-  width: 400px;
+  margin: 2px auto;
+  margin-bottom: 5px;
+  font-size: 14.5px;
+  width: 600px;
+  height: 30px;
   text-align: center;
+  color: gray;
 }
 
 .searchBox {
   text-align: center;
-  margin: -5px auto;
+  margin: 10px auto;
 
   #search {
     border: none;
@@ -52,6 +53,7 @@ audio {
   input {
     padding-left: 7px;
     font-size: 14.5px;
+    background-color: #FAFAFA;
   }
   input::-webkit-input-placeholder {
     padding-left: 5px;

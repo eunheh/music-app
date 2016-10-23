@@ -11,16 +11,22 @@
   <body>
 
     <div class="container">
+
       <h1>MUSIC WAVES</h1>
 
-      <audio class="controls" controls="controls"></audio>
-      <p class="nowPlaying"></p>
-      <p class="searchBox">
-        <input type="text" id="search" placeholder="Artist / Song">
+      <div class="nowPlaying"></div>
+
+      <div class="player">
+        <audio class="controls" controls="controls"></audio>
+      </div>
+
+      <form class="searchBox">
+        <input type="text" id="search" placeholder="Artists / Songs">
         <button id="search-button">Search</button>
-      </p>
+      </form>
 
       <div class="results"></div>
+
     </div>
 
     <script src="js/bundle.js"></script>
