@@ -2,11 +2,15 @@ import $ from 'jquery';
 import {SC_TOKEN} from './token';
 
 function listSongs (song) {
+  var art = song.artwork_url;
+  if (art === null) {
+    art = "https://images.unsplash.com/photo-1460626399219-57a00a2361cb";
+  }
   return `
     <div class="song" data-songsource="${song.stream_url}" data-formatsource="${song.original_format}"
     data-artistsource="${song.user.username}"
     data-titlesource="${song.title}">
-      <img class="image" src="${song.artwork_url}">
+      <img class="image" src="${art}">
       <div class="title">${song.title}</div>
       <div class="artist">${song.user.username}</div>
     </div>`;
