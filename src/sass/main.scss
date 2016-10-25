@@ -83,6 +83,7 @@ audio {
 
   .image {
     @include songBox;
+    height: 180px;
     margin-bottom: 0px;
   }
   .title {

@@ -4,7 +4,7 @@ import {SC_TOKEN} from './token';
 function listSongs (song) {
   var art = song.artwork_url;
   if (art === null) {
-    art = "https://images.unsplash.com/photo-1460626399219-57a00a2361cb";
+    art = "https://images.unsplash.com/photo-1449960238630-7e720e630019";
   }
   return `
     <div class="song" data-songsource="${song.stream_url}" data-formatsource="${song.original_format}"
